@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blissful Bites with Joy - Sweet Treats</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Blissful Bites Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order Now</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Blissful Bites</h1>
+                <p>Indulge in the art of sweet perfection</p>
+                <a href="#menu" class="cta-button">Explore Our Menu</a>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <h2>Our Sweet Selection</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Cupcakes">
+                    <h3>Artisan Cupcakes</h3>
+                    <p>Handcrafted mini masterpieces with gourmet frostings</p>
+                    <div class="menu-item-details">
+                        <p><strong>Flavors:</strong> Vanilla, Chocolate, Red Velvet, Matcha, Caramel</p>
+                        <p><strong>Price:</strong> Ksh 150 each</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Cakes">
+                    <h3>Custom Cakes</h3>
+                    <p>Freshly baked cakes, priced per kg</p>
+                    <div class="menu-item-details">
+                        <p><strong>Flavors:</strong> Vanilla, Chocolate, Red Velvet, Lemon, Carrot</p>
+                        <p><strong>Price:</strong> Ksh 1,200 per kg</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Cookies">
+                    <h3>Gourmet Cookies</h3>
+                    <p>Crispy on the outside, chewy on the inside</p>
+                    <div class="menu-item-details">
+                        <p><strong>Flavors:</strong> Chocolate Chip, Oatmeal Raisin, Peanut Butter, Almond</p>
+                        <p><strong>Price:</strong> Ksh 80 each</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Bread">
+                    <h3>Fresh Breads</h3>
+                    <p>Daily baked artisan breads</p>
+                    <div class="menu-item-details">
+                        <p><strong>Types:</strong> Sourdough, Whole Wheat, Rye, Multigrain</p>
+                        <p><strong>Price:</strong> Ksh 700 per kg</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Buns">
+                    <h3>Sweet Buns</h3>
+                    <p>Soft and fluffy with sweet fillings</p>
+                    <div class="menu-item-details">
+                        <p><strong>Flavors:</strong> Cinnamon, Chocolate, Blueberry, Lemon</p>
+                        <p><strong>Price:</strong> Ksh 100 each</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Croissants">
+                    <h3>Buttery Croissants</h3>
+                    <p>Flaky layers with rich butter</p>
+                    <div class="menu-item-details">
+                        <p><strong>Types:</strong> Plain, Chocolate, Almond</p>
+                        <p><strong>Price:</strong> Ksh 120 each</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Meat Pies">
+                    <h3>Gourmet Meat Pies</h3>
+                    <p>Hand-crafted with premium meats</p>
+                    <div class="menu-item-details">
+                        <p><strong>Flavors:</strong> Beef, Chicken, Sausage, Cheese</p>
+                        <p><strong>Price:</strong> Ksh 200 each</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Muffins">
+                    <h3>Fresh Muffins</h3>
+                    <p>Morning favorites with various flavors</p>
+                    <div class="menu-item-details">
+                        <p><strong>Flavors:</strong> Blueberry, Banana, Chocolate Chip, Lemon</p>
+                        <p><strong>Price:</strong> Ksh 130 each</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="order" class="order-section">
+            <h2>Place Your Order</h2>
+            <div class="order-container">
+                <div class="order-form">
+                    <form id="orderForm">
+                        <div class="order-details">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                            <input type="tel" placeholder="Phone Number" required>
+                            <select name="item" id="itemSelect" required>
+                                <option value="">Select Item</option>
+                                <option value="cupcake">Artisan Cupcake (Ksh 150 each)</option>
+                                <option value="cake">Custom Cake (Ksh 1,200 per kg)</option>
+                                <option value="cookie">Gourmet Cookie (Ksh 80 each)</option>
+                                <option value="bread">Fresh Bread (Ksh 700 per kg)</option>
+                                <option value="bun">Sweet Bun (Ksh 100 each)</option>
+                                <option value="croissant">Buttery Croissant (Ksh 120 each)</option>
+                                <option value="meatpie">Gourmet Meat Pie (Ksh 200 each)</option>
+                                <option value="muffin">Fresh Muffin (Ksh 130 each)</option>
+                            </select>
+                            <div id="quantityInput">
+                                <input type="number" placeholder="Quantity" min="1" required>
+                            </div>
+                            <div id="weightInput" style="display: none;">
+                                <input type="number" placeholder="Weight in kg" min="0.5" step="0.5" required>
+                            </div>
+                            <div class="pickup-delivery">
+                                <h4>Expected Pickup/Delivery Date</h4>
+                                <input type="date" id="orderDate" required>
+                                <input type="time" id="orderTime" required>
+                            </div>
+                            <input type="text" id="location" placeholder="Location (e.g., Nairobi CBD, Westlands)" required>
+                            <div class="payment-options">
+                                <h4>Payment Options</h4>
+                                <p>Initial Payment (20% Discount): <span id="initialPayment">Ksh 0</span></p>
+                                <p>Balance Payment: <span id="balancePayment">Ksh 0</span></p>
+                                <div class="payment-method">
+                                    <input type="radio" id="mpesa" name="paymentMethod" value="mpesa" checked>
+                                    <label for="mpesa">M-Pesa</label>
+                                    <input type="radio" id="cash" name="paymentMethod" value="cash">
+                                    <label for="cash">Cash on Delivery</label>
+                                </div>
+                            </div>
+                            <div class="delay-charges" style="display: none;">
+                                <h4>Delay Charges</h4>
+                                <p>If pickup/delivery is delayed beyond 2 hours, a late fee of Ksh 200 will be applied.</p>
+                            </div>
+                            <textarea placeholder="Special Requests or Notes"></textarea>
+                        </div>
+                        <div class="delivery-options">
+                            <h3>Delivery Options</h3>
+                            <div class="option-group">
+                                <input type="radio" id="pickup" name="delivery" value="pickup" checked>
+                                <label for="pickup">Pickup</label>
+                            </div>
+                            <div class="option-group">
+                                <input type="radio" id="delivery" name="delivery" value="delivery">
+                                <label for="delivery">Delivery</label>
+                            </div>
+                            <div class="delivery-address" style="display: none;">
+                                <input type="text" placeholder="Street Address">
+                                <input type="text" placeholder="City">
+                                <input type="text" placeholder="Postal Code">
+                            </div>
+                        </div>
+                        <div class="order-total">
+                            <h3>Order Summary</h3>
+                            <p id="orderSummary">Item: <span id="selectedItem">-</span></p>
+                            <p id="orderQuantity">Quantity: <span id="selectedQuantity">-</span></p>
+                            <p id="orderTotal">Total: <span id="totalPrice">Ksh 0</span></p>
+                        </div>
+                        <button type="submit" class="order-button">Place Order</button>
+                    </form>
+                </div>
+                <div class="order-info">
+                    <h3>Order Information</h3>
+                    <p>Minimum order value: $15.00</p>
+                    <p>Delivery within 3-5 business days</p>
+                    <p>Free pickup available</p>
+                    <p>Custom orders may require additional time</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="feedback" class="feedback-section">
+            <h2>Share Your Experience</h2>
+            <div class="feedback-container">
+                <div class="rating-section">
+                    <h3>Rate Your Experience</h3>
+                    <div class="stars">
+                        <input type="radio" id="star5" name="rating" value="5">
+                        <label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4">
+                        <label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3">
+                        <label for="star3"></label>
+                        <input type="radio" id="star2" name="rating" value="2">
+                        <label for="star2"></label>
+                        <input type="radio" id="star1" name="rating" value="1">
+                        <label for="star1"></label>
+                    </div>
+                </div>
+                <div class="feedback-form">
+                    <form id="feedbackForm">
+                        <textarea placeholder="Share your thoughts..." required></textarea>
+                        <button type="submit" class="feedback-button">Submit Feedback</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Get in Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:jjjjoycy@gmail.com">jjjjoycy@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://instagram.com/blissful.bites.with.joy" target="_blank">@blissful.bites.with.joy</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Blissful Bites with Joy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
